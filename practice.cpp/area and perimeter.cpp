@@ -15,7 +15,7 @@ int main() {
     if (area > perimeter) {
         cout << "Area is greater than Perimeter";
     } else {
-        cout << "Area is NOT greater than Perimeter";
+        cout << "Perimeter is greater than Area";
     }
 
     return 0;
