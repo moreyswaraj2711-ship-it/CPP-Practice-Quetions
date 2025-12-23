@@ -1,0 +1,28 @@
+# Ignore compiled files
+*.exe
+*.obj
+
+# Optional (recommended for C/C++)
+*.o
+*.out
+*.dll
+*.class
+
+# Build folders
+bin/
+build/
+Debug/
+Release/
+
+# Visual Studio / C++ build files
+*.exe
+*.obj
+*.ilk
+*.pdb
+
+# Build folders
+Debug/
+Release/
+x64/
+bin/
+build/
