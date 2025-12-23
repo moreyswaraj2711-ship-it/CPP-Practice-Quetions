@@ -14,10 +14,7 @@ bool flag=true;
             flag=false;
             break;
         }
-        // if(flag==true)
-        //     cout<<"prime no";
-        // else
-        //     cout<<"composite";
+      
     }
     if(flag==true)
             cout<<"prime no";
