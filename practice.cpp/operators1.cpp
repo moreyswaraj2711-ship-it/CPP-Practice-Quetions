@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int num, count = 0;
-    cout << "Enter a number: "; 
-       cin >> num;
-
-    for (; num != 0; num = num / 10) {
+int main() 
+{
+    int n;
+    cout << "Enter the No:";
+    cin>> n;
+    int count=0;
+    while(n>0){
+        n=n/10;
         count++;
     }
-
-    cout << "Total digits = " << count;
-    return 0;
+    cout<<count;
 }
